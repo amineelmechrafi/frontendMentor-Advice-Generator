@@ -28,7 +28,7 @@ function App() {
     <section className="min-h-screen bg-DarkBlue grid place-items-center font-Manrope">
       <main className="w-[375px] min-h-[350px] bg-DarkGrayishBlue rounded-lg grid place-items-center p-7 relative md:w-[500px] md:min-h-[270px]">
       <div className="flex flex-col  items-center relative space-y-5 md:border-spacing-y-7 ">
-        <h2 className="text-NeonGreen2 font-semibold uppercase tracking-[0.3rem] text-xs justify-self-start">Advice #112</h2>
+        <h2 className="text-NeonGreen2 font-semibold uppercase tracking-[0.3rem] text-xs justify-self-start">Advice #{data?.id}</h2>
         <p className="text-center text-LightCyan font-bold opacity-[0.95] text-base capitalize">{loading ? "loading...." : data?.advice}</p>
         <div><svg width="295" height="16" xmlns="http://www.w3.org/2000/svg"><g fill="none" fill-rule="evenodd"><path fill="#4F5D74" d="M0 8h122v1H0zM173 8h122v1H173z"/><g transform="translate(138)" fill="#CEE3E9"><rect width="6" height="16" rx="3"/><rect x="14" width="6" height="16" rx="3"/></g></g></svg></div>
       </div>
